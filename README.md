@@ -3,10 +3,10 @@
 Coleção de API's desenvolvidas para coletar e exibir dados qualitativos e quantitativos de fundos de investimento.
 
 ## Objetivo: 
-  1 - Permitir a gestores visualizar como seus fundos estão perante seus melhores concorrentes.
-  2 - Permitir aos acessores verificar se estão oferecendo os melhores investimentos.
-  3 - Permitir aos investidores saber se estão alocando seus recursos nos melhores fundos.
-  4 - Permitir tanto a gestores, acessores e investidores visualizar os ativos que mais impactaram positivamente e negativamente a carteira do fundo.
+  * Permitir a gestores visualizar como seus fundos estão perante seus melhores concorrentes.
+  * Permitir aos acessores verificar se estão oferecendo os melhores investimentos.
+  * Permitir aos investidores saber se estão alocando seus recursos nos melhores fundos.
+  * Permitir tanto a gestores, acessores e investidores visualizar os ativos que mais impactaram positivamente e negativamente a carteira do fundo.
 
 ## Metodologia:
   Foram selecionados para compor nossa amostra fundos de ações com patrimônio líquido > 100MM, que não sejam fundo de cotas e não invistam no exterior.Isso foi feito para que ao analizarmos somente a composição do portfolio de ações tenhamos uma boa prévia dos ativos que mais impactaram a rentabilidade do fundo em um determinado período.Para se chegar ao ganho percentual por ativo foi realizada uma aproximação onde o resultado financeiro do ativo no mês foi dividido pelo patrimônio de fechamento do mês imediatamente anterior.
