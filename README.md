@@ -13,6 +13,7 @@ Coleção de API's desenvolvidas para coletar e exibir dados qualitativos e quan
 
 Foram selecionados para compor nossa amostra fundos de ações com patrimônio líquido > 100MM, que não sejam fundo de cotas e não invistam no exterior.Isso foi feito para que ao analizarmos somente a composição do portfolio de ações tenhamos uma boa prévia dos ativos que mais impactaram a rentabilidade do fundo em um determinado período.Para se chegar ao ganho percentual por ativo foi realizada uma aproximação onde o resultado financeiro do ativo no mês foi dividido pelo patrimônio de fechamento do mês imediatamente anterior.
 
+
 ### API's
 API | Descrição |
 |---|---|
