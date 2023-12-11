@@ -14,7 +14,7 @@ from model import Fundo
 class DadosCVM():
 
     def __init__(self):
-        db_path = "projeto-api/database/"
+        db_path = "database/"
         # url de acesso ao banco (essa é uma url de acesso ao sqlite local)
         db_url = 'sqlite:///%s/db.sqlite3' % db_path
         # cria a engine de conexão com o banco

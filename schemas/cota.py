@@ -5,9 +5,9 @@ from datetime import datetime
 
 
 class BuscaCotaSchema(BaseModel):
-    lista_cnpj: List[str] = None
-    data_inicial: datetime = None
-    data_final: datetime = None
+    lista_cnpj: List[str] = ["01.496.940/0001-86"]
+    data_inicial: datetime =  datetime(2023,1,1)
+    data_final: datetime =  datetime(2023,3,1)
     
 
 

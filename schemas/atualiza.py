@@ -5,8 +5,8 @@ from datetime import datetime
 
 class AtualizaSchema(BaseModel):
     datainicial: datetime = datetime(2023,1,1)
-    datafinal: datetime = datetime(2023,7,1)
-    tarefa: str = "Todos"
+    datafinal: datetime = datetime(2023,3,1)
+    tarefa: str = "cota"
 
 
 class AtualizaViewSchema(BaseModel):

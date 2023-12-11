@@ -8,7 +8,7 @@ from model.fundo import Fundo
 from model.portfolio import Portfolio
 from model.cota import Cota
 
-db_path = "projeto-api/database/"
+db_path = "database/"
 # Verifica se o diretorio não existe
 if not os.path.exists(db_path):
    # então cria o diretorio

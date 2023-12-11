@@ -7,8 +7,8 @@ from sqlalchemy.inspection import inspect
 import pandas as pd
 
 class BuscaPortfolioSchema(BaseModel):
-    lista_cnpj: List[str] = None
-    data_referencia: datetime = None
+    lista_cnpj: List[str] = ["01.496.940/0001-86"]
+    data_referencia: datetime = datetime(2023,1,1)
    
 
 class PortfolioViewSchema(BaseModel):

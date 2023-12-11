@@ -8,10 +8,10 @@ class BuscaFundoSchema(BaseModel):
     cnpj: Optional[str]  = None
     razao_social: Optional[str] = "BRAM H FUNDO DE INVESTIMENTO AÇÕES INSTITUCIONAL"
 
-class BuscaTopFiveSchema(BaseModel):
-    classe: str = None
-    data_inicial: datetime = None
-    data_final: datetime = None
+class BuscaTopFundosSchema(BaseModel):
+    classe: str = "Ações Livre"
+    data_inicial: datetime = datetime(2023,1,1)
+    data_final: datetime = datetime(2023,3,1)
 
 class FundoViewSchema(BaseModel):
     cnpj: str = "01.496.940/0001-86"

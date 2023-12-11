@@ -6,7 +6,7 @@ from datetime import timedelta
 class DiaUtil(AbstractHolidayCalendar):
 
     def __init__(self):
-        df= pd.read_excel(r'projeto-api\database\feriados_nacionais.xlsx',header=0)
+        df= pd.read_excel(r'database\feriados_nacionais.xlsx',header=0)
         df['Feriados'] = pd.to_datetime(df['Feriados'])
         self.rules = [Holiday('Feriado',month=feriado.month,day=feriado.day,year=feriado.year) for feriado in df['Feriados']]
 
